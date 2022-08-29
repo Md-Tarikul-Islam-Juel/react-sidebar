@@ -342,7 +342,7 @@ ul {
     height: 70px;
     width: 100%;
     padding: 5px 5px;
-    background: #ff9f43;
+    background: #505050;
     transition: var(--tran-05);
     z-index: 100;
   }
@@ -409,6 +409,7 @@ ul {
   }
   .sidebar .icon {
     min-width: initial;
+    color: #ffa801;
   }
   .bottom-content {
     display: none;
