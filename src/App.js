@@ -7,9 +7,6 @@ function App() {
             <BrowserRouter>
                 <SideBar />
             </BrowserRouter>
-            <section className="home">
-                <div className="text">Dashboard Sidebar</div>
-            </section>
         </>
     );
 }

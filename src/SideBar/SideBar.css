@@ -321,3 +321,100 @@ ul {
   background-color: var(--primary-color);
   color: #fff;
 }
+
+/*=================================================================*/
+/*----------------------Media query start--------------------------*/
+/*=================================================================*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ## oneplus6T width 412px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .sidebar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    padding: 5px 5px;
+    background: #ff9f43;
+    transition: var(--tran-05);
+    z-index: 100;
+  }
+  .sidebar.close {
+    /* width: 88px; */
+    width: 100%;
+  }
+  .sidebar .menu-bar {
+    height: initial;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: initial;
+  }
+  .sidebar header .image {
+    margin: initial;
+    margin-left: 10px;
+  }
+  .logo-text {
+    display: none;
+  }
+  /* header {
+    width: 50px;
+  } */
+  header .image-text .name {
+    display: none;
+  }
+  header .image-text .profession {
+    display: none;
+  }
+  .sidebar header .toggle {
+    display: none;
+  }
+  .menu-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .sidebar .menu {
+    margin-top: inherit;
+  }
+  .sidebar li {
+    padding: 0;
+    margin: 0 13px;
+    width: initial;
+    height: initial;
+    list-style: initial;
+    display: initial;
+    align-items: inherit;
+    margin-top: 15px;
+    flex-direction: initial;
+  }
+  .sidebar li .a {
+    display: initial;
+    padding: 0;
+    margin: 0;
+  }
+  .text .nav-text {
+    display: none;
+  }
+  .sidebar .text {
+    font-size: initial;
+    display: none;
+  }
+  .sidebar .icon {
+    min-width: initial;
+  }
+  .bottom-content {
+    display: none;
+  }
+}
+
+/*=================================================================*/
+/*----------------------Media query End----------------------------*/
+/*=================================================================*/
